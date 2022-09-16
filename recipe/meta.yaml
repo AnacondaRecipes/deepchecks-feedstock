@@ -27,7 +27,7 @@ requirements:
     - numpy >=1.19
     - scikit-learn >=0.23.2
     - jsonpickle >=2
-    - PyNomaly >=0.3.3
+    - pynomaly >=0.3.3
     - ipython >=7.15.0,<8    # [py>=38]
     - ipython >=5.5.0,<8     # [py<38]
     - ipykernel >=5.3.0      # [py>=38]
