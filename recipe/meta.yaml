@@ -50,9 +50,11 @@ test:
     - deepchecks
   commands:
     # pip check will fail because of plotly
-    - pip check || true
+    - pip check || true  # [not win]
+    - pip check || exit 0  # [win]
   requires:
     - pip
+    - numpy <1.23
 
 about:
   home: https://github.com/deepchecks/deepchecks
